@@ -1,7 +1,13 @@
+# Env
 venv/
 __pycache__/
 *.pyc
-.env
-logs/
-data/
-.vscode/
+
+# Energy Project Sensitive Files (Block from GitHub)
+black_box.py
+sensors.py
+drone_fleet.py
+media_tool.py
+test_reverso.py
+translation_tool.py
+webhook_client.py
